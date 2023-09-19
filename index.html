@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iPet</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Dancing+Script&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  />
+  <script translate="text/javascript" src="js/jquery.min.js"></script>
+</head>
+
+<body>
+  <header>
+
+    <div class="d-flex align-items-center"> <img src="/ipet_strona/images/090909.PNG" alt="">
+      <p class="logo">Dog Beds</p>
+    </div>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+      <li><a class="l" href="#shop" key='products'>Produkty</a></li>
+      <li><a class="l" href="#about" key='about'>O nas</a></li>
+      <li><a class="l" href="#contact" key='contact'>Kontakt</a></li>
+      <li><a class="l" href="#shop" data-toggle="modal" data-target="#exampleModal">Dropshipping</a></li>
+    </ul>
+    <div class="icons">
+      <a href="https://www.facebook.com/profile.php?id=100089185216102"><i class='bx bxl-facebook-circle'></i></i></a>
+      <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+
+    </div>
+    <div class="langsec"> <a class="lang" href="" id='en' language='en'>eng</a> <a class="lang " id="pl" language="pl"
+        href="">pol</a></div>
+  </header>
+
+  <div class="jumbotron d-flex container mt-5">
+    <div class="mt-3">
+      <h1 class="display-4 l" key="heroHeader">
+        Komfort i styl dla Twojego psa.
+      </h1>
+      <p class="lead mt-2 l" key="heroDescr">
+        Projektujemy i produkujemy legowiska, które zapewnią Twojemu pupilowi relaks i wygodny sen. Nowoczesny design,
+        trwałość oraz łatwa pielęgnacja, pozwolą cieszyć się opiekunom zwierząt każdą chwilą spędzoną ze swoimi
+        ulubieńcami.
+      </p>
+
+
+    </div>
+    <div>
+      <img class="hero-img img-fluid max-width: 100% height: auto"
+        src="/ipet_strona/images/fb2a0e8f36b8d80902afed6f42598330 (1).jpg" alt="" />
+    </div>
+  </div>
+  <!--products-->
+  <section class="shop" id="shop">
+    <div class="container">
+      <!-- <div class="box">
+                <img src="img/07.jpg">
+                <h4>Materac Brego</h4>
+            </div> -->
+      <li class="project__item box">
+        <a href="" class="project__link">
+          <div class="overlay-card">
+            <img src="img/07.jpg" alt="Технокряк" width="320px" height="213px" />
+
+            <div class="overlay-card__box">
+              <p class="overlay-card__text l" key="bedBregoDescription">
+                • pokrowiec - tkanina strukturalna/miękki plusz • wypełnienie - granulat pianki • zdejmowany pokrowiec z
+                poliestru • praktyczny uchwyt • solidne i wysokiej jakości• wyprodukowano w UE
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card__title l" key="bedBrego">Materac Brego</h3>
+          </div>
+        </a>
+      </li>
+      <!-- <div class="box">
+                <img src="img/06.jpg">
+                <h4>Materac Enzo</h4>
+            </div> -->
+
+      <li class="project__item box">
+        <a href="" class="project__link">
+          <div class="overlay-card">
+            <img src="img/06.jpg" alt="Технокряк" width="320px" height="213px" />
+
+            <div class="overlay-card__box">
+              <p class="overlay-card__text l" key="matEnzoDescription">
+                • pokrowiec - miękka tkanina typu sztruks • wypełnienie- pianka tapicerska • zdejmowany pokrowiec z
+                poliestru • solidne i wysokiej jakości• wyprodukowano w UE
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card__title l" key="matEnzo">Materac Enzo</h3>
+          </div>
+        </a>
+      </li>
+      <!-- <div class="box">
+                <img src="img/43.jpg">
+                <h4>Legowisko Faro</h4>
+            </div> -->
+
+      <!-- <div class="box">
+                <img src="img/09.jpg">
+                <h4>Pufa Brego</h4>
+            </div> -->
+
+      <li class="project__item box">
+        <a href="" class="project__link">
+          <div class="overlay-card">
+            <img src="img/09.jpg" alt="Технокряк" width="320px" height="213px" />
+
+            <div class="overlay-card__box">
+              <p class="overlay-card__text l" key="PoufBregoDescription">
+                • pokrowiec - tkanina strukturalna/miękki plusz • wypełnienie - pianka tapicerska • • zdejmowany
+                pokrowiec z poliestru • solidne i wysokiej jakości • praktyczny uchwyt • wyprodukowano w UE
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card__title l" key="PoufBrego">Pufa Brego</h3>
+          </div>
+        </a>
+      </li>
+      <!-- <div class="box">
+                <img src="img/10.jpg">
+                <h4>Pufa Enzo</h4>
+            </div> -->
+
+      <li class="project__item box">
+        <a href="" class="project__link">
+          <div class="overlay-card">
+            <img src="img/10.jpg" alt="Технокряк" width="320px" height="213px" />
+
+            <div class="overlay-card__box">
+              <p class="overlay-card__text l" key="PoufEnzoDescription">
+                • pokrowiec -plusz/miękka tkanina typu sztruks • wypełnienie - granulat pianki • • zdejmowany pokrowiec
+                z poliestru • solidne i wysokiej jakości • wyprodukowano w UE
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card__title l" key="PoufEnzo">Pufa Enzo</h3>
+          </div>
+        </a>
+      </li>
+      <li class="project__item box">
+        <a href="" class="project__link">
+          <div class="overlay-card">
+            <img src="img/10.jpg" alt="Технокряк" width="320px" height="213px" />
+
+            <div class="overlay-card__box">
+              <p class="overlay-card__text l" key="PoufEnzoDescription">
+                • pokrowiec -plusz/miękka tkanina typu sztruks • wypełnienie - granulat pianki • • zdejmowany pokrowiec
+                z poliestru • solidne i wysokiej jakości • wyprodukowano w UE
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card__title l" key="PoufEnzo">Pufa Enzo</h3>
+          </div>
+        </a>
+      </li>
+      <!-- <div class="box">
+                <img src="img/023.jpg">
+                <h4>Materac Lux</h4>
+            </div> -->
+
+      <li class="project__item box">
+        <a href="" class="project__link">
+          <div class="overlay-card">
+            <img src="img/023.jpg" alt="Технокряк" width="320px" height="213px" />
+
+            <div class="overlay-card__box">
+              <p class="overlay-card__text l" key="matLuxDescription">
+                • pokrowiec - miękki plusz • wypełnienie- wkład dzielony tunelami, granulat pianki • zdejmowany
+                pokrowiec z poliestru • solidne i wysokiej jakości • wyprodukowano w UE
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card__title l" key="matLux">Materac Lux</h3>
+          </div>
+        </a>
+      </li>
+      <!-- <div class="box">
+                <img src="img/01.jpg">
+                <h4>Legowisko Rino</h4>
+            </div> -->
+
+      <li class="project__item box">
+        <a href="" class="project__link">
+          <div class="overlay-card">
+            <img src="img/01.jpg" alt="Технокряк" width="320px" height="213px" />
+
+            <div class="overlay-card__box">
+              <p class="overlay-card__text l" key="bedRinoDescription">
+                • pokrowiec - tkanina strukturalna-plecionka • wypełnienie - pianka/ poduszki - granulat pianki •
+                zdejmowany pokrowiec z poliestru • poduszki na stałe przyszyte do materaca • praktyczny boczny uchwyt •
+                solidne i wysokiej jakości • wyprodukowano w UE
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card__title l" key="bedRino">Legowisko Rino</h3>
+          </div>
+        </a>
+      </li>
+      <!-- <div class="box">
+                <img src="img/44.jpg">
+                <h4>Materac Rino z poduszka</h4>
+            </div> -->
+
+      <li class="project__item box">
+        <a href="" class="project__link">
+          <div class="overlay-card">
+            <img src="img/44.jpg" alt="Технокряк" width="320px" height="213px" />
+
+            <div class="overlay-card__box">
+              <p class="overlay-card__text l" key="matRinCDescription">
+                • pokrowiec - tkanina strukturalna-plecionka • wypełnienie - pianka/ poduszki - granulat pianki •
+                zdejmowany pokrowiec z poliestru • poduszki na stałe przyszyte do materaca • praktyczny boczny uchwyt •
+                solidne i wysokiej jakości • wyprodukowano w UE
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card__title l" key="matRinC">Materac Rino z poduszka</h3>
+          </div>
+        </a>
+      </li>
+      <!-- <div class="box">
+                <img src="img/03.jpg">
+                <h4>Materac Rino</h4>
+            </div> -->
+
+      <li class="project__item box">
+        <a href="" class="project__link">
+          <div class="overlay-card">
+            <img src="img/03.jpg" alt="Технокряк" width="320px" height="213px" />
+
+            <div class="overlay-card__box">
+              <p class="overlay-card__text l" key="matRinoDescription">
+                • pokrowiec - tkanina strukturalna-plecionka • wypełnienie - pianka/ poduszki - granulat pianki •
+                zdejmowany pokrowiec z poliestru • poduszki na stałe przyszyte do materaca • praktyczny boczny uchwyt •
+                solidne i wysokiej jakości • wyprodukowano w UE
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card__title l" key="matRino">Materac Rino</h3>
+          </div>
+        </a>
+      </li>
+      <!-- <div class="box">
+                <img src="img/018.jpg">
+                <h4>Legowisko klasyczne Rino</h4>
+            </div> -->
+      <li class="project__item box">
+        <a href="" class="project__link">
+          <div class="overlay-card">
+            <img src="img/018.jpg" alt="Технокряк" width="320px" height="213px" />
+
+            <div class="overlay-card__box">
+              <p class="overlay-card__text l" key="bedRinoClassDescription">
+                • pokrowiec - tkanina strukturalna- plecionka • wypełnienie - granulat pianki • wyjmowana dwustronna
+                poduszka • zdejmowany pokrowiec z poliestru • solidne i wysokiej jakości • wyprodukowano w UE"
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card__title l" key="bedRinoClass">Legowisko klasyczne Rino</h3>
+          </div>
+        </a>
+      </li>
+      <!-- <div class="box">
+                <img src="img/17.jpg">
+                <h4>Legowisko iPet</h4>
+            </div> -->
+
+      <li class="project__item box">
+        <a href="" class="project__link">
+          <div class="overlay-card">
+            <img src="img/17.jpg" alt="Технокряк" width="320px" height="213px" />
+
+            <div class="overlay-card__box">
+              <p class="overlay-card__text l" key="bediPetDescription">
+                • pokrowiec - tkanina plecionka/ miękki plusz • wypełnienie - granulat pianki • wyjmowana dwustronna
+                poduszka • zdejmowany pokrowiec z poliestru • solidne i wysokiej jakości • wyprodukowano w UE
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card__title l" key="bediPet">Legowisko iPet</h3>
+          </div>
+        </a>
+      </li>
+      <!-- <div class="box">
+                <img src="img/013.jpg">
+                <h4>Kanapa Rino</h4>
+            </div> -->
+
+      <li class="project__item box">
+        <a href="" class="project__link">
+          <div class="overlay-card">
+            <img src="img/013.jpg" alt="Технокряк" width="320px" height="213px" />
+
+            <div class="overlay-card__box">
+              <p class="overlay-card__text">
+                Ресурс предлагает комплексные предложения с разным уровнем
+                функционала и сервисов. Все это позволит посетителю получить
+                исчерпывающие сведения о компании или частном лице.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Kanapa Rino</h3>
+          </div>
+        </a>
+      </li>
+
+
+      <li class="project__item box">
+        <a href="" class="project__link">
+          <div class="overlay-card">
+            <img src="img/1941a.jpg" alt="Технокряк" />
+
+            <div class="overlay-card__box">
+              <p class="overlay-card__text l" key="PontAmberDescription">
+                • pokrowiec - tkanina wodoodporna/ fibertex • wypełnienie - granulat pianki • solidne i wysokiej jakości
+                • wyprodukowano w UE,
+
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card__title" key="PontAmber">Ponton Amber</h3>
+          </div>
+        </a>
+      </li>
+
+
+      <li class="project__item box">
+        <a href="" class="project__link">
+          <div class="overlay-card">
+            <img src="img/1961.jpg" alt="Технокряк" />
+
+            <div class="overlay-card__box">
+              <p class="overlay-card__text l" key="bedBregoDescription">
+                • pokrowiec - tkanina strukturalna/miękki plusz • wypełnienie - granulat pianki • zdejmowany pokrowiec z
+                poliestru • praktyczny uchwyt • solidne i wysokiej jakości• wyprodukowano w UE
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 class="card__title" key="bedFaro">Materac Faro</h3>
+          </div>
+        </a>
+      </li>
+    </div>
+  </section>
+
+  <!--about us-->
+  <!-- <section class="about" id="about">
+      <div class="about-content">
+        <h2>O nas</h2>
+        <p>
+          Projektujemy i produkujemy wysokiej jakości legowiska dla psów,
+          stosując najlepsze tkaniny oraz antyalergiczne wypełnienia. Chcemy,
+          aby nasze Czworonogi czuły się w nich zdrowe, szczęśliwe i wypoczęte.
+          Opiekunom zwierząt zapewniamy bezpieczne, wygodne i pasujące do
+          różnych wnętrz legowiska, pozwalając im cieszyć się każdą chwilą ze
+          swoimi ulubieńcami. Stale poszerzamy aktualną ofertę o kolejne
+          produkty, wprowadzając nowoczesne, wysokiej jakości tkaniny i ciekawe
+          rozwiązania.
+        </p>
+      </div>
+    </section> -->
+  <div>
+    <h2 class="text-center mb-3">O nas</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 onas mb-5">
+
+      <div class="col rounded">
+        <div class="card h-100  ">
+          <i class='bx bx-equalizer'></i>
+          <div class="card-body">
+            <h5 class="card-title text-center">Wytrzymałe i certyfikowane materiały </h5>
+            <p class="card-text text-center"> Wykorzystujemy tylko certyfikowane materiały, które gwarantują trwałość i
+              bezpieczeństwo Twojego pupila. To nie tylko legowisko - to miejsce, w którym Twój pies poczuje się jak w
+              prawdziwym azylu
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <i class='bx bx-equalizer'></i>
+          <div class="card-body">
+            <h5 class="card-title text-center">100 % Wykonane Ręcznie </h5>
+            <p class="card-text text-center"> Wszystkie nasze produkty są wykonywane ręcznie. Nasza pasja do tworzenia
+              legowisk jest widoczna w każdym detalu.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <i class='bx bx-equalizer'></i>
+          <div class="card-body">
+            <h5 class="card-title text-center">Łatwa pielęgnacja</h5>
+            <p class="card-text text-center"> Nasze legowiska oferują nie tylko wygodę i komfort, ale także możliwość
+              prania i łatwej pielęgnacji, co sprawia, że są one doskonałym wyborem dla każdego psa i jego opiekuna.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--contact-->
+  <!-- <section class="contacts" id="contact">
+      <div class="main-contact">
+        <div class="contact-content">
+          <li><a href="#produkty">Produkty</a></li>
+          <li><a href="#onas">O nas</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+          <li><a href="#produkty">Dropshipping</a></li>
+        </div>
+        <div class="contact-content">
+          <li><a href="#">Dostawa i zwroty</a></li>
+          <li><a href="#">Store Policy</a></li>
+          <li><a href="#">Metody płatności</a></li>
+        </div>
+        <div class="contact-content">
+          <li><a href="#">Kontakt</a></li>
+          <li><a href="#">Tel: +48 609837314</a></li>
+        </div>
+        <div class="contact-content">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+        </div>
+      </div>
+      <div class="action">
+        <form>
+          <input type="email" name="email" placeholder="Your email" required />
+          <input type="submit" name="submit" value="Submit" required />
+        </form>
+      </div>
+    </section> -->
+
+
+
+  <footer class="footer ">
+    <div class="container">
+      <div class="row">
+        <ul class="col-md-5">
+          <li class="mb-2"><a class="l" href="#shop" key='products'>Produkty</a></li>
+          <li class="mb-2"><a class="l" href="#about" key='about'>O nas</a></li>
+          <li class="mb-2"><a class="l" href="#contact" key='contact'>Kontakt</a></li>
+          <li class="mb-2"><a class="l" href="#shop" data-toggle="modal" data-target="#exampleModal">Dropshipping</a>
+          </li>
+          <li class="mb-2">Ipet</li>
+          <li>Email: intergoo.biuro@gmail.com</li>
+          <li>+48 609 837 314</li>
+        </ul>
+        <div class="col-md-2">
+          <h5 class="text-md-right">Contact Us</h5>
+          <hr>
+        </div>
+        <div class="col-md-5">
+          <form action="https://formsubmit.co/intergoo.biuro@gmail.com" method="POST">
+            <input type="text" name="_honey" style="display: none;">
+
+            <fieldset class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" mame="email">
+            </fieldset>
+            <fieldset class="form-group">
+              <textarea class="form-control" id="exampleMessage" name="message"></textarea>
+            </fieldset>
+            <fieldset class="form-group text-xs-right">
+              <button type="button" class="btn btn-secondary-outline btn-lg">Send</button>
+            </fieldset>
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Dropshipping</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body l" key="drop">
+          Produkowane przez nas legowiska dla psów są dostępne również w modelu dropshipping.
+          Dla naszej firmy ważne jest, abyście Państwo mogli dostarczać nasze wysokiej jakości produkty swoim klientom
+          bez konieczności przechowywania ich na własnym magazynie. Nasza oferta dropshippingu to idealna szansa na
+          rozwijanie własnego biznesu z minimalnym wysiłkiem logistycznym.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary l" data-dismiss="modal" key="close">Zamknij</button>
+          <button type="button" class="btn btn-primary">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
